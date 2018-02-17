@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2cdcd"
+    tools:context="com.example.se7en.clinicadvisortest2.userAccount"
+    tools:layout_editor_absoluteY="81dp">
+<!--Walaa Walaa Walaa Walaa-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="90dp"
+            android:layout_height="54dp"
+            android:layout_alignBaseline="@+id/button8"
+            android:layout_alignBottom="@+id/button8"
+            android:layout_toLeftOf="@+id/editText10"
+            android:layout_toStartOf="@+id/editText10"
+            android:text="@string/save"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="439dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="210dp"
+            android:layout_height="147dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/clinicadvisorlogo"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="90dp"
+            android:layout_height="54dp"
+            android:layout_alignEnd="@+id/imageView4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/imageView4"
+            android:text="@string/Log_out"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="422dp" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView4"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="101dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="235dp" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText11"
+            android:layout_alignStart="@+id/editText11"
+            android:layout_below="@+id/editText11"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText12"
+            android:layout_alignStart="@+id/editText12"
+            android:layout_below="@+id/editText12"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText11"
+            android:layout_alignStart="@+id/editText11"
+            android:layout_below="@+id/imageView4"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText9"
+            android:layout_alignBottom="@+id/editText9"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/editText9"
+            android:layout_toRightOf="@+id/editText9"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="177dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
