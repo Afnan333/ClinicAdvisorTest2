@@ -111,6 +111,7 @@
             android:layout_alignParentBottom="true"
             android:layout_toEndOf="@+id/textView10"
             android:layout_toRightOf="@+id/textView10"
+            android:onClick="On_Sing"
             android:text="@string/singup" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

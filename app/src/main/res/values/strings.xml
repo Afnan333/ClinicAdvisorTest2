@@ -39,9 +39,12 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
+    <string name="home">Home</string>
+    <string name="offers">Offers</string>
+    <string name="myaccounr">My account</string>
+
     <!--home page strings-->
     <string name="search_icon">search</string>
-
 
 
 </resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.se7en.clinicadvisortest2.offerspage">
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="165dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/clinicadvisorlogo" />
+        </android.support.constraint.ConstraintLayout>
+
+    </ImageSwitcher>
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="224dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="198dp"
+        android:layout_marginEnd="61dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/clinic_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginRight="61dp" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="135dp"
+        android:layout_marginEnd="61dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/offrs_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/editText24"
+        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginRight="61dp" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="61dp"
+        android:layout_marginEnd="61dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/editText25"
+        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher"
+        android:layout_marginRight="61dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText24"
+        app:layout_constraintEnd_toStartOf="@+id/editText24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="4dp"
+        android:contentDescription="@string/offrs_name" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/editText25"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText25"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="37dp"
+        android:contentDescription="@string/offrs_name"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="33dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText26"
+        app:layout_constraintEnd_toStartOf="@+id/editText26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="33dp"
+        android:contentDescription="@string/details"/>
+
+</android.support.constraint.ConstraintLayout>

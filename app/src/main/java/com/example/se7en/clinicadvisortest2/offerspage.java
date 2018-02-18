@@ -6,14 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ClinicAccountPage extends Fragment {
+public class offerspage extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.activity_clinic_account_page, container, false);
+        View rootView = inflater.inflate(R.layout.activity_offerspage, container, false);
 
         return rootView;
     }
-
 }

@@ -110,6 +110,9 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
                     home h=new home();
                     return h;
+                case 2:
+                    offerspage of=new offerspage();
+                    return of;
                 default:
                     return null;
             }
@@ -128,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
                     return"My account";
                 case 1:
                     return "home";
+                case 2:
+                    return "Offers page";
             }
             return null;
         }
