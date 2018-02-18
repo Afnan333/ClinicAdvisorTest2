@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/clinicadvisorlogo" />
+        app:srcCompat="@drawable/logoo" />
 
     <EditText
         android:id="@+id/editText2"
@@ -32,6 +32,7 @@
         android:layout_marginEnd="41dp"
         android:layout_marginStart="41dp"
         android:ems="10"
+        android:background="@drawable/text"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,6 +46,7 @@
         android:layout_marginEnd="41dp"
         android:layout_marginStart="41dp"
         android:ems="10"
+        android:background="@drawable/text"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,6 +59,7 @@
         android:layout_marginBottom="16dp"
         android:onClick="On_SingUp"
         android:text="@string/Login"
+        android:background="@drawable/bttonsmll"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

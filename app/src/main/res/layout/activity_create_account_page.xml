@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/clinicadvisorlogo" />
+        app:srcCompat="@drawable/logoo" />
 
     <Button
         android:id="@+id/button5"
@@ -31,6 +31,7 @@
         android:layout_marginBottom="23dp"
         android:onClick="On_Clinic"
         android:text="@string/accountForClinic"
+        android:background="@drawable/button"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,6 +44,7 @@
         android:layout_marginBottom="75dp"
         android:onClick="On_User"
         android:text="@string/accountForUser"
+        android:background="@drawable/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

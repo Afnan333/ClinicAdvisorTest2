@@ -16,6 +16,7 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="4dp"
         android:ems="10"
+        android:background="@drawable/text"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

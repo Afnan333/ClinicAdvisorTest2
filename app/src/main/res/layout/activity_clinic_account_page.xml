@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            app:srcCompat="@drawable/ic_launcher_background" />
+            app:srcCompat="@drawable/ic_launcher_background"/>
 
         <EditText
             android:id="@+id/editText16"
@@ -29,6 +29,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/imageView5"
             android:layout_marginLeft="74dp"
+            android:background="@drawable/text"
             android:layout_marginStart="74dp"
             android:layout_marginTop="12dp"
             android:ems="10"
@@ -42,6 +43,7 @@
             android:layout_alignStart="@+id/editText16"
             android:layout_below="@+id/editText16"
             android:layout_marginTop="15dp"
+            android:background="@drawable/text"
             android:ems="10"
             android:inputType="textPersonName" />
 
@@ -51,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/editText19"
             android:layout_alignStart="@+id/editText19"
+            android:background="@drawable/text"
             android:layout_below="@+id/editText19"
             android:layout_marginTop="11dp"
             android:ems="10"
@@ -62,6 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/editText20"
             android:layout_alignStart="@+id/editText20"
+            android:background="@drawable/text"
             android:layout_below="@+id/editText20"
             android:layout_marginTop="15dp"
             android:ems="10"
@@ -73,6 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/editText21"
             android:layout_alignStart="@+id/editText21"
+            android:background="@drawable/text"
             android:layout_below="@+id/editText21"
             android:layout_marginTop="16dp"
             android:ems="10"
@@ -84,6 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/editText22"
             android:layout_alignStart="@+id/editText22"
+            android:background="@drawable/text"
             android:layout_below="@+id/editText22"
             android:ems="10"
             android:inputType="textPersonName" />
@@ -98,6 +104,7 @@
             android:layout_marginRight="23dp"
             android:layout_toLeftOf="@+id/imageView5"
             android:layout_toStartOf="@+id/imageView5"
+            android:background="@drawable/bttonsmll"
             android:text="@string/save" />
 
         <Button
@@ -107,7 +114,9 @@
             android:layout_alignBaseline="@+id/button13"
             android:layout_alignBottom="@+id/button13"
             android:layout_centerHorizontal="true"
-            android:text="@string/add_offers" />
+            android:text="@string/add_offers"
+            android:background="@drawable/bttonsmll"
+            />
 
         <Button
             android:id="@+id/button13"
@@ -118,6 +127,8 @@
             android:layout_marginStart="19dp"
             android:layout_toEndOf="@+id/imageView5"
             android:layout_toRightOf="@+id/imageView5"
-            android:text="@string/Log_out" />
+            android:text="@string/Log_out"
+            android:background="@drawable/bttonsmll"
+            />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

@@ -19,6 +19,7 @@
         android:layout_marginStart="60dp"
         android:onClick="onClick"
         android:text="@string/CreateAnAccount"
+        android:background="@drawable/button"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/clinicadvisorlogo" />
+        app:srcCompat="@drawable/logoo" />
 
     <Button
         android:id="@+id/button2"
@@ -47,6 +48,7 @@
         android:layout_marginStart="62dp"
         android:onClick="login"
         android:text="@string/Login"
+        android:background="@drawable/button"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:text="@string/skip"
+        android:background="@drawable/bttonsmll"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

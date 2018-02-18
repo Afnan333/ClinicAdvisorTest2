@@ -31,7 +31,7 @@
                 android:contentDescription="@string/app_name"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/clinicadvisorlogo" />
+                app:srcCompat="@drawable/logoo"/>
         </android.support.constraint.ConstraintLayout>
 
     </ImageSwitcher>
@@ -45,6 +45,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/clinic_name"
+        android:background="@drawable/text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -63,6 +64,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/offrs_name"
+        android:background="@drawable/text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -77,14 +79,15 @@
         android:layout_height="61dp"
         android:layout_marginBottom="61dp"
         android:layout_marginEnd="61dp"
+        android:background="@drawable/text"
         android:ems="10"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintStart_toStartOf="@+id/editText25"
-        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher"
-        android:layout_marginRight="61dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher" />
 
     <ImageView
         android:id="@+id/imageView8"

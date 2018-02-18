@@ -45,6 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:background="@drawable/text"
                     android:inputType="textPersonName"
                     android:text=""
                     tools:layout_editor_absoluteX="153dp"
@@ -70,6 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:background="@drawable/text"
                     android:inputType="textPersonName"
                     android:text=""
                     tools:layout_editor_absoluteX="153dp"
@@ -96,6 +98,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="phone"
+                    android:background="@drawable/text"
                     tools:layout_editor_absoluteX="153dp"
                     tools:layout_editor_absoluteY="128dp" />
             </TableRow>
@@ -119,6 +122,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:background="@drawable/text"
                     android:inputType="textEmailAddress"
                     tools:layout_editor_absoluteX="153dp"
                     tools:layout_editor_absoluteY="194dp" />
@@ -144,6 +148,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPassword"
+                    android:background="@drawable/text"
                     tools:layout_editor_absoluteX="153dp"
                     tools:layout_editor_absoluteY="253dp" />
             </TableRow>
@@ -167,6 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:background="@drawable/text"
                     android:inputType="textPassword"
                     tools:layout_editor_absoluteX="153dp"
                     tools:layout_editor_absoluteY="306dp" />
@@ -229,7 +235,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:onClick="singUp"
-                android:text="@string/singup" />
+                android:text="@string/singup"
+                android:background="@drawable/bttonsmll"
+                />
         </LinearLayout>
     </LinearLayout>
 
