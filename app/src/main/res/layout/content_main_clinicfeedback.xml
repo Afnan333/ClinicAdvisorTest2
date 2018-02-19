@@ -14,10 +14,11 @@
         android:layout_width="336dp"
         android:layout_height="114dp"
         android:layout_marginBottom="51dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="24dp"
         app:layout_constraintBottom_toTopOf="@+id/editText32"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/editText30" />
+        app:layout_constraintTop_toBottomOf="@+id/editText30"
+        android:layout_marginLeft="24dp" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -38,15 +39,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="84dp"
-        android:layout_marginTop="6dp"
         android:contentDescription="@string/Clinic_Description"
         android:ems="10"
         android:inputType="textMultiLine"
         android:text="@string/Clinic_Description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher2"
-        android:layout_marginRight="84dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageSwitcher2" />
 
     <ImageView
         android:id="@+id/imageView12"
