@@ -31,15 +31,7 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".offerspage" />
-        <activity
-            android:name=".MainClinicinfoActivity"
-            android:label="@string/title_activity_main_clinicinfo"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".MainClinicfeedbackActivity"
-            android:label="@string/title_activity_main_clinicfeedback"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".offerspage"></activity>
     </application>
 
 </manifest>
