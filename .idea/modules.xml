@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ClinicAdvisorTest2.iml" filepath="$PROJECT_DIR$/.idea/ClinicAdvisorTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClinicAdvisorTest2.iml" filepath="$PROJECT_DIR$/ClinicAdvisorTest2.iml" />
+      <module fileurl="file://C:\Users\se7en\AndroidStudioProjects\ClinicAdvisorTest2\.idea\ClinicAdvisorTest2.iml" filepath="C:\Users\se7en\AndroidStudioProjects\ClinicAdvisorTest2\.idea\ClinicAdvisorTest2.iml" />
       <module fileurl="file://C:\Users\hp\AndroidStudioProjects\ClinicAdvisorTest2\ClinicAdvisorTest2.iml" filepath="C:\Users\hp\AndroidStudioProjects\ClinicAdvisorTest2\ClinicAdvisorTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

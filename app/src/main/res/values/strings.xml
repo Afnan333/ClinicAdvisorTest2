@@ -51,9 +51,9 @@
     <string name="title_activity_main_clinicfeedback">MainClinicfeedbackActivity</string>
     <string name="Clinic_Description">clinic description</string>
     <string name="work_time">Work Time</string>
-    <string name="map_view">location</string>
+    <string name="map_view">Location</string>
     <string name="clinic_num">Contact Number</string>
     <string name="clinic_email">Email</string>
-
+    <string name="feedback">Feedback</string>
 
 </resources>
