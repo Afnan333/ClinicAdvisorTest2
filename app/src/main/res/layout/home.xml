@@ -8,6 +8,7 @@
     tools:context="com.example.se7en.clinicadvisortest2.home"
     tools:layout_editor_absoluteY="81dp">
 
+    <!--AFNAN AFNAN AFNAN-->
     <EditText
         android:id="@+id/editText24"
         android:layout_width="269dp"
