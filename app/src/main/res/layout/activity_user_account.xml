@@ -31,7 +31,7 @@
             android:layout_height="147dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            app:srcCompat="@drawable/logoo"
+            app:srcCompat="@drawable/logoo2"
             tools:layout_editor_absoluteX="87dp"
             tools:layout_editor_absoluteY="30dp" />
 

@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageSwitcher"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logoo" />
+        app:srcCompat="@drawable/logoo2" />
 
     <EditText
         android:id="@+id/editText24"
