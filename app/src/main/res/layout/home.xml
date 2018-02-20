@@ -9,6 +9,7 @@
     tools:layout_editor_absoluteY="81dp">
 
     <!--AFNAN AFNAN AFNAN-->
+    <!--AFNAN AFNAN AFNAN-->
     <EditText
         android:id="@+id/editText24"
         android:layout_width="269dp"
@@ -46,7 +47,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
