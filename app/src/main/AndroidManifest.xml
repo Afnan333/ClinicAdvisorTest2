@@ -24,14 +24,14 @@
         <activity android:name=".LogIn" />
         <activity android:name=".CreateAccountPage" />
         <activity android:name=".CreateAccountForUser" />
-        <activity android:name=".userAccount" />
-        <activity android:name=".create_account_for_clinic" />
-        <activity android:name=".ClinicAccountPage" />
+       <!-- <activity android:name=".userAccount" /> -->
+              <activity android:name=".create_account_for_clinic" />
+       <!-- <activity android:name=".ClinicAccountPage" /> -->
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".offerspage" />
+       <!-- <activity android:name=".offerspage" /> -->
         <activity android:name=".clinic_info"></activity>
     </application>
 
